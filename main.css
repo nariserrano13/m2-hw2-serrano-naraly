@@ -11,9 +11,15 @@ article, aside, details, figcaption, figure, footer, header, main, nav, section,
 img{
     max-width: 199px;
 }
-
+h1{
+    padding: 1rem 0rem;
+}
 .container{
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+.alert{
+    max-width: 400px;
+    margin: auto;
 }
